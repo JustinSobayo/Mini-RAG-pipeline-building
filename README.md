@@ -1,1 +1,2 @@
 # Mini-RAG-pipeline-building
+Simple rag pipeline that takes a one page pdf and converts it's text into a easily navigable .json file which stands for JavaScript Object Notation used to store name-value pairs and arrays. The texts on the page are separated by bounding boxes which are used to define boundaries in the text. The location of these bounding boxes are stored along with the actual text inside of the .json file making it easily readable and navigable by humans or AI interfaces.
